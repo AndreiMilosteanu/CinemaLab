@@ -43,5 +43,7 @@ public:
      * se returneaza vectorul de filme care apartin genului dorit
      */
     vector<Film> getGenre(string Genre);
+
+    vector<Film> getFilme() const;
 };
 #endif //LAB5_FILMREPO_H

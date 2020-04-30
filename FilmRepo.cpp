@@ -112,3 +112,7 @@ vector<Film> FilmRepo::getGenre(string Genre) {
             aux.push_back(filme[i]);
     return aux;
 }
+
+std::vector<Film> FilmRepo::getFilme() const {
+    return filme;
+}
